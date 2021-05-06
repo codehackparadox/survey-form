@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>iPhone 12 Pro Survey Form</title>
+    <link rel="stylesheet" href="surveyformstyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="big-title">
+        <h1 id="title">iPhone 12 Pro Survey Form</h1>
+        <p id="description"><em>Thank you for your time to help us improve our product</em></p>
+    </header>
+
+    <div id="container">
+        <form id="survey-form" action="surveyform.html" method="POST">
+            <label id="name-label" for="name">Name:</label>
+            <br>
+            <input type="text" name="yourname" id="name" placeholder="John Doe" style="width: 490px" class="radius" required>
+            <br>
+            <br>
+
+            <label id="email-label" for="email">Email:</label>
+            <br>
+            <input type="email" name="mail" id="email" placeholder="johndoe@email.com" style="width: 490px" class="radius" required>
+            <br>
+            <br>
+
+            <label id="number-label" for="number">Age:</label>
+            <br>
+            <input type="number" name="age" id="number" min="16" max="70" placeholder="16-70" style="width: 490px" class="radius" required>
+            <br>
+            <br>
+
+            <label for="dropdown">Choose which option fits your current role best:</label>
+            <br>
+            <select name="role" id="dropdown" style="width: 495px">
+                <option value="" selected disabled>Select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+            
+            <p>How satisfied are you with the product?</p>
+            <input type="radio" id="extremelysatisfied" name="satisfaction" value="extremelysatisfied">
+            <label for="extremelysatisfied">Extremely satisfied</label>
+            <br>
+            <input type="radio" id="verysatisfied" name="satisfaction" value="verysatisfied">
+            <label for="verysatisfied">Very satisfied</label>
+            <br>
+            <input type="radio" id="somewhatsatisfied" name="satisfaction" value="somewhatsatisfied">
+            <label for="somewhatsatisfied">Some what satisfied</label>
+            <br>
+            <input type="radio" id="notsosatisfied" name="satisfaction" value="notsosatisfied">
+            <label for="notsosatisfied">Not so satisfied</label>
+            <br>
+            <input type="radio" id="notatallsatisfied" name="satisfaction" value="notatallsatisfied">
+            <label for="notatallsatisfied">Not at all satisfied</label>
+            <br>
+            <br>
+
+
+            <p>If you did not make a purchase of our product, what stopped you?</p>
+            <input type="checkbox" id="willnotwork" name="reason" value="willnotwork">
+            <label for="willnotwork">I don't believe the product will work</label>
+            <br>
+
+            <input type="checkbox" id="dontunderstand" name="reason" value="dontunderstand">
+            <label for="dontunderstand">I don't understand the product</label>
+            <br>
+
+            <input type="checkbox" id="expensive" name="reason" value="expensive">
+            <label for="expensive">The product is expensive</label>
+            <br>
+
+            <input type="checkbox" id="justbrowsing" name="reason" value="justbrowsing">
+            <label for="justbrowsing">I'm just browsing</label>
+            <br>
+            <br>
+            <br>
+
+            <label for="recommendation">How likely is it that you would recommend our new product to friend or family?</label>
+            <br>
+            <input type="range" id="recommendation" name="recommendation" min="0" max="10" value="0">
+            <br>
+            <br>
+
+            <label for="textarea">How would you want us to improve this product</label>
+            <br>
+            <textarea id="textarea" name="textarea" rows="5" columns="30"></textarea>
+            <br>
+            <br>
+
+
+            
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+
+            
+        </form>
+    </div>
+    
+
+
+</body>
+
+</html>

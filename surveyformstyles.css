@@ -1,0 +1,52 @@
+#big-title{
+    text-align: center;
+    padding: 10px;;
+}
+
+body {
+    background: #ACD4F1;
+    font-family: "Open Sans";
+}
+
+#container {
+    background: #7399C6;
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #00355F;
+    border-color: #7399C6;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#survey-form {
+    margin-left: 30px;
+    margin-right: 12px;
+    padding: 15px;
+}
+
+#dropdown {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: white;
+}
+
+.radius {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: white;
+}
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    width: 490px;
+    font-size: 14px;
+    padding: 10px;
+}
